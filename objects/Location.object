@@ -1,0 +1,1705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Address_1__c</fullName>
+        <description>Conga</description>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Address 1</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Address_2__c</fullName>
+        <description>Conga</description>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Address 2</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Affiliate_Ancillary__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Locations</relationshipLabel>
+        <relationshipName>Locations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Ancillary__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Ancillary</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Locations/Facilities (Ancillary)</relationshipLabel>
+        <relationshipName>Locations_Facilities</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Builders_risk_coverage_needed__c</fullName>
+        <label>Builders risk coverage needed</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Building_Improvement__c</fullName>
+        <description>Conga</description>
+        <label>Building Improvement</label>
+        <precision>9</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Business_Interruption_Value__c</fullName>
+        <description>Conga</description>
+        <label>Business Interruption Value</label>
+        <precision>9</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Central_Alarm_Yes_No__c</fullName>
+        <description>Used in Conga Document Carrier Quarterly Locations. It is not on the page layout</description>
+        <externalId>false</externalId>
+        <formula>IF(Central_Alarm__c, &quot;Yes&quot;, &quot;No&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>[deprecated] Central Alarm Yes/No</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Central_Alarm__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Conga</description>
+        <label>Central Alarm</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Cert_Occup__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Conga</description>
+        <inlineHelpText>Does this location have a Certificate of Occupancy?</inlineHelpText>
+        <label>Cert Occup</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>City__c</fullName>
+        <description>Conga</description>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <label>City</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ConstCheck__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Conga - In order to add relevant data for the Under Construction tab in the Insurance Carrier output, we need a field to identify the specific criteria that identify a record’s value as belonging to one or more of those sheets. This field will be marked true when the related record needs to be included.</description>
+        <label>ConstCheck</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Constr_Cert_of_Liability_Ins_Obtained__c</fullName>
+        <description>Construction Company Certificates of Liability Ins Obtained</description>
+        <label>Const Co Certs of Liability Ins Obtained</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Construction_Cost__c</fullName>
+        <description>Conga</description>
+        <label>Construction Cost</label>
+        <precision>9</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Construction_Notes__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Construction Notes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Construction_Project_Description__c</fullName>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Construction Project Description</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Construction_Security_Measures__c</fullName>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <label>Construction Security Measures</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Construction_Type1__c</fullName>
+        <description>Conga</description>
+        <label>Construction Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>(1) Fire Resistive/Heavy NC</fullName>
+                    <default>false</default>
+                    <label>(1) Fire Resistive/Heavy NC</label>
+                </value>
+                <value>
+                    <fullName>(2) Steel Deck &amp; Other Light NC</fullName>
+                    <default>false</default>
+                    <label>(2) Steel Deck &amp; Other Light NC</label>
+                </value>
+                <value>
+                    <fullName>(3) Heavy Timber</fullName>
+                    <default>false</default>
+                    <label>(3) Heavy Timber</label>
+                </value>
+                <value>
+                    <fullName>(4) Masonry Joist</fullName>
+                    <default>false</default>
+                    <label>(4) Masonry Joist</label>
+                </value>
+                <value>
+                    <fullName>(5) Frame</fullName>
+                    <default>false</default>
+                    <label>(5) Frame</label>
+                </value>
+                <value>
+                    <fullName>(6) Other</fullName>
+                    <default>false</default>
+                    <label>(6) Other</label>
+                </value>
+                <value>
+                    <fullName>(8) Boards on Joist</fullName>
+                    <default>false</default>
+                    <label>(8) Boards on Joist</label>
+                </value>
+                <value>
+                    <fullName>(9) Brick</fullName>
+                    <default>false</default>
+                    <label>(9) Brick</label>
+                </value>
+                <value>
+                    <fullName>(10) Wood Frame</fullName>
+                    <default>false</default>
+                    <label>(10) Wood Frame</label>
+                </value>
+                <value>
+                    <fullName>(11) Masonry Non-Combustible</fullName>
+                    <default>false</default>
+                    <label>(11) Masonry Non-Combustible</label>
+                </value>
+                <value>
+                    <fullName>(12) Concrete</fullName>
+                    <default>false</default>
+                    <label>(12) Concrete</label>
+                </value>
+                <value>
+                    <fullName>(13) Cinder Block</fullName>
+                    <default>false</default>
+                    <label>(13) Cinder Block</label>
+                </value>
+                <value>
+                    <fullName>(14) Steel Deck (combustible)</fullName>
+                    <default>false</default>
+                    <label>(14) Steel Deck (combustible)</label>
+                </value>
+                <value>
+                    <fullName>(15) Wood Truss on Steel</fullName>
+                    <default>false</default>
+                    <label>(15) Wood Truss on Steel</label>
+                </value>
+                <value>
+                    <fullName>(17) Plywood on Lam. Beams</fullName>
+                    <default>false</default>
+                    <label>(17) Plywood on Lam. Beams</label>
+                </value>
+                <value>
+                    <fullName>(18) Protected Steel</fullName>
+                    <default>false</default>
+                    <label>(18) Protected Steel</label>
+                </value>
+                <value>
+                    <fullName>(20) Plywood on Glue Lam./Wood Frame</fullName>
+                    <default>false</default>
+                    <label>(20) Plywood on Glue Lam./Wood Frame</label>
+                </value>
+                <value>
+                    <fullName>(22) Plywood on Lam. Beams/Tilt-Up Concrete</fullName>
+                    <default>false</default>
+                    <label>(22) Plywood on Lam. Beams/Tilt-Up Concrete</label>
+                </value>
+                <value>
+                    <fullName>(23) Un-improved land</fullName>
+                    <default>false</default>
+                    <label>(23) Un-improved land</label>
+                </value>
+                <value>
+                    <fullName>(24) Non-combustible</fullName>
+                    <default>false</default>
+                    <label>(24) Non-combustible</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Contract_Reviewed_by_ARMS__c</fullName>
+        <label>Contract Reviewed by ARMS?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Date_Time_Closed__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Date Time Closed</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Date_Time_Opened__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Date Time Opened</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Description_of_Renovations__c</fullName>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <label>Description of Renovations</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Employee_Headcount__c</fullName>
+        <description>Conga</description>
+        <externalId>false</externalId>
+        <label>Employee Headcount</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Excavation_or_Subsurface_Yes_No__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Excavation_or_Subsurface__c, &quot;Yes&quot;, &quot;No&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>[deprecatExcavation or Subsurface Yes/No</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Excavation_or_Subsurface__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Conga</description>
+        <label>Excavation or Subsurface</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Exposure__c</fullName>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Exposure</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Exterior_Work__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Exterior Work</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FacilitiesForConga__c</fullName>
+        <description>Conga</description>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <label>Facilities</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Facility_Account_Name_Formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>Facility_Location__r.Affiliate_Ancillary__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Facility Account Name Formula</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Facility_Address_1_Formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>Facility_Location__r.Address_1__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Facility Address 1 Formula</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Facility_Address_2_Formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>Facility_Location__r.Address_2__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Facility Address 2 Formula</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Facility_City_Formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>Facility_Location__r.City__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Facility City Formula</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Facility_Location__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Facility Location</label>
+        <referenceTo>Location</referenceTo>
+        <relationshipLabel>Facilities</relationshipLabel>
+        <relationshipName>Facilities</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Facility_State_Formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>Facility_Location__r.State__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Facility State Formula</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Facility_Type__c</fullName>
+        <label>Facility Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Affiliate Headquarters</fullName>
+                    <default>false</default>
+                    <label>Affiliate Headquarters</label>
+                </value>
+                <value>
+                    <fullName>Education Center</fullName>
+                    <default>false</default>
+                    <label>Education Center</label>
+                </value>
+                <value>
+                    <fullName>Express Center</fullName>
+                    <default>false</default>
+                    <label>Express Center</label>
+                </value>
+                <value>
+                    <fullName>Facility Under Construction</fullName>
+                    <default>false</default>
+                    <label>Facility Under Construction</label>
+                </value>
+                <value>
+                    <fullName>Lab</fullName>
+                    <default>false</default>
+                    <label>Lab</label>
+                </value>
+                <value>
+                    <fullName>Medical Center</fullName>
+                    <default>false</default>
+                    <label>Medical Center</label>
+                </value>
+                <value>
+                    <fullName>Miscellaneous</fullName>
+                    <default>false</default>
+                    <label>Miscellaneous</label>
+                </value>
+                <value>
+                    <fullName>Parking Lot</fullName>
+                    <default>false</default>
+                    <label>Parking Lot</label>
+                </value>
+                <value>
+                    <fullName>Pharmacy</fullName>
+                    <default>false</default>
+                    <label>Pharmacy</label>
+                </value>
+                <value>
+                    <fullName>School-Based Health Center</fullName>
+                    <default>false</default>
+                    <label>School-Based Health Center</label>
+                </value>
+                <value>
+                    <fullName>Secondary Administrative Office</fullName>
+                    <default>false</default>
+                    <label>Secondary Administrative Office</label>
+                </value>
+                <value>
+                    <fullName>Unoccupied</fullName>
+                    <default>false</default>
+                    <label>Unoccupied</label>
+                </value>
+                <value>
+                    <fullName>Warehouse</fullName>
+                    <default>false</default>
+                    <label>Warehouse</label>
+                </value>
+                <value>
+                    <fullName>Ancillary</fullName>
+                    <default>false</default>
+                    <label>Ancillary</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Facility_Zipcode_Formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>Facility_Location__r.Zip_Code__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Facility Zipcode Formula</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ground_Up_Construction_Yes_No__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Ground_up_Construction__c, &quot;Yes&quot;, &quot;No&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Ground Up Construction Yes/No</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ground_up_Construction__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Conga</description>
+        <label>Ground up Construction</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>High_Hazard_Flood_Zone__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>High Hazard Flood Zone?</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hot_work_during_construction__c</fullName>
+        <label>Hot work during construction</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Interior_Renovation_Only__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Conga</description>
+        <label>Interior Renovation Only</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Interior_Renovation_Yes_No__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Interior_Renovation_Only__c, &quot;Yes&quot;, &quot;No&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Interior Renovation Yes/No</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Internal_Status__c</fullName>
+        <label>Internal Status</label>
+        <required>true</required>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>false</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Inactive</fullName>
+                    <default>false</default>
+                    <label>Inactive</label>
+                </value>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>false</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Inventory_Value__c</fullName>
+        <description>Conga</description>
+        <label>Inventory Value</label>
+        <precision>9</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Leased_to_3rd_Party__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Leased to 3rd Party</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Location_Address_TEST__c</fullName>
+        <externalId>false</externalId>
+        <formula>Facility_Location__r.Address_1__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Location Address (TEST)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Location_Facility_ID__c</fullName>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Location or Facility ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NFIP_Status__c</fullName>
+        <label>NFIP Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No Response</fullName>
+                    <default>false</default>
+                    <label>No Response</label>
+                </value>
+                <value>
+                    <fullName>Self Insure</fullName>
+                    <default>false</default>
+                    <label>Self Insure</label>
+                </value>
+                <value>
+                    <fullName>NFIP Local</fullName>
+                    <default>false</default>
+                    <label>NFIP Local</label>
+                </value>
+                <value>
+                    <fullName>NFIP through ARMS/Marsh</fullName>
+                    <default>false</default>
+                    <label>NFIP through ARMS/Marsh</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>NewLocCheck__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Conga - In order to add relevant data for the New Locations tab in the Insurance Carrier output, we need a field to identify the specific criteria that identify a record’s value as belonging to one or more of those sheets. This field will be marked true when the related record needs to be included.</description>
+        <label>NewLocCheck</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Notes__c</fullName>
+        <description>Conga</description>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Notes</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Occupancy__c</fullName>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Occupancy</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Owned_Ancillary_Operated_Affiliate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Owned Ancillary/ Operated Affiliate</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Owned_Leased__c</fullName>
+        <description>Conga</description>
+        <label>Owned/Leased</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Owned</fullName>
+                    <default>false</default>
+                    <label>Owned</label>
+                </value>
+                <value>
+                    <fullName>Leased</fullName>
+                    <default>false</default>
+                    <label>Leased</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Personal_Property_Value__c</fullName>
+        <description>Conga</description>
+        <label>Personal Property Value</label>
+        <precision>9</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Plumbing_or_Piping_Work__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Conga</description>
+        <label>Plumbing or Piping Work</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Plumbing_or_Piping_Yes_No__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Plumbing_or_Piping_Work__c, &quot;Yes&quot;, &quot;No&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plumbing or Piping Yes/No</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Previous_Quarter__c</fullName>
+        <description>This provides a merge field used by Conga for the Quarterly Insurance Carrier update.</description>
+        <externalId>false</externalId>
+        <formula>CASE( MONTH( ( TODAY() ) ),
+4, &apos;Q1 - &apos;&amp; TEXT(YEAR(( TODAY() ))),
+5, &apos;Q1 - &apos;&amp; TEXT(YEAR(( TODAY() ))),
+6, &apos;Q1 - &apos;&amp; TEXT(YEAR(( TODAY() ))),
+7, &apos;Q2 - &apos;&amp; TEXT(YEAR(( TODAY() ))),
+8, &apos;Q2 - &apos;&amp; TEXT(YEAR(( TODAY() ))),
+9, &apos;Q2 - &apos;&amp; TEXT(YEAR(( TODAY() ))),
+10,&apos;Q3 - &apos;&amp; TEXT(YEAR(( TODAY() ))),
+11,&apos;Q3 - &apos;&amp; TEXT(YEAR(( TODAY() ))),
+12,&apos;Q3 - &apos;&amp; TEXT(YEAR(( TODAY() ))),
+1,&apos;Q4 - &apos;&amp; TEXT(YEAR(( TODAY() ))-1),
+2,&apos;Q4 - &apos;&amp; TEXT(YEAR(( TODAY() ))-1),
+3,&apos;Q4 - &apos;&amp; TEXT(YEAR(( TODAY() ))-1),
+&apos;0&apos;
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicates prior quarter from today for the Insurance Carrier merge output.</inlineHelpText>
+        <label>Previous Quarter</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Real_Property_Value__c</fullName>
+        <description>Conga</description>
+        <label>Real Property Value</label>
+        <precision>9</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Renovations_or_Construction__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Renovations or Construction</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Retro_Fitting_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Retro-Fitting Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Seismic_Upgrades__c</fullName>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <label>Seismic Upgrades</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Special_Status__c</fullName>
+        <label>Special Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Under Construction - Occupied</fullName>
+                    <default>false</default>
+                    <label>Under Construction - Occupied</label>
+                </value>
+                <value>
+                    <fullName>Under Construction - Unoccupied</fullName>
+                    <default>false</default>
+                    <label>Under Construction - Unoccupied</label>
+                </value>
+                <value>
+                    <fullName>Unoccupied</fullName>
+                    <default>false</default>
+                    <label>Unoccupied</label>
+                </value>
+                <value>
+                    <fullName>Undeveloped Land</fullName>
+                    <default>false</default>
+                    <label>Undeveloped Land</label>
+                </value>
+                <value>
+                    <fullName>Leased to Third-Party</fullName>
+                    <default>false</default>
+                    <label>Leased to Third-Party</label>
+                </value>
+                <value>
+                    <fullName>Leased to Third Party - Under Construction - Occupied</fullName>
+                    <default>false</default>
+                    <label>Leased to Third Party - Under Construction - Occupied</label>
+                </value>
+                <value>
+                    <fullName>Leased to Third Party - Under Construction - Unoccupied</fullName>
+                    <default>false</default>
+                    <label>Leased to Third Party - Under Construction - Unoccupied</label>
+                </value>
+                <value>
+                    <fullName>Ancillary Owned-Affiliate Operated</fullName>
+                    <default>false</default>
+                    <label>Ancillary Owned-Affiliate Operated</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sprinkler_Percent__c</fullName>
+        <description>Conga</description>
+        <label>Sprinkler Percent</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Sprinkler_Protected_Yes_No__c</fullName>
+        <description>Used in Conga Document Carrier Quarterly Locations. It is not on the page layout</description>
+        <externalId>false</externalId>
+        <formula>IF(Sprinkler_Protected__c, &quot;Yes&quot;, &quot;No&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sprinkler Protected Yes/No</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sprinkler_Protected__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Conga</description>
+        <label>Sprinkler Protected</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Square_Footage__c</fullName>
+        <description>Conga</description>
+        <externalId>false</externalId>
+        <label>Square Footage</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>State__c</fullName>
+        <description>Conga</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>State</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Stories__c</fullName>
+        <description>Conga</description>
+        <externalId>false</externalId>
+        <label>Stories</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Value__c</fullName>
+        <description>Conga</description>
+        <formula>BLANKVALUE(Personal_Property_Value__c, 0)  +  BLANKVALUE(Real_Property_Value__c, 0)  +  BLANKVALUE(Building_Improvement__c, 0)  +  BLANKVALUE(Inventory_Value__c, 0)  +  BLANKVALUE(Business_Interruption_Value__c, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Insured Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Under_Construction__c</fullName>
+        <formula>IF(
+
+AND(
+NOT(ISNULL( ConstructionStartDate )),
+ConstructionStartDate&lt;=TODAY(),
+ OR(ConstructionEndDate &gt;TODAY(),ISNULL(ConstructionEndDate))),
+
+TRUE,
+FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Under Construction?</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>VacCheck__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Conga - In order to add relevant data for the Vacated tab in the Insurance Carrier output, we need a field to identify the specific criteria that identify a record’s value as belonging to one or more of those sheets. This field will be marked true when the related record needs to be included.</description>
+        <label>VacCheck</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Water_Fire_Sys_Imp_During_Constr__c</fullName>
+        <label>Water/Fire Sys Imp During Constr</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Year_Built__c</fullName>
+        <description>Conga</description>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Year Built</label>
+        <length>4</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Zip_Code__c</fullName>
+        <description>Conga</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Zip Code</label>
+        <length>15</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sys_DateTime_Closed__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>sys_DateTime_Closed</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>sys_DateTime_Open__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>sys_DateTime_Open</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>sys_ParentFlowGUID__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>[deprecated] sys_ParentFlowGUID</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <recordTypes>
+        <fullName>Facility</fullName>
+        <active>true</active>
+        <label>Facility</label>
+        <picklistValues>
+            <picklist>Builders_risk_coverage_needed__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Constr_Cert_of_Liability_Ins_Obtained__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Construction_Type1__c</picklist>
+            <values>
+                <fullName>%281%29 Fire Resistive%2FHeavy NC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2810%29 Wood Frame</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2811%29 Masonry Non-Combustible</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2812%29 Concrete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2813%29 Cinder Block</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2814%29 Steel Deck %28combustible%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2815%29 Wood Truss on Steel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2817%29 Plywood on Lam%2E Beams</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2818%29 Protected Steel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%282%29 Steel Deck %26 Other Light NC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2820%29 Plywood on Glue Lam%2E%2FWood Frame</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2822%29 Plywood on Lam%2E Beams%2FTilt-Up Concrete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2823%29 Un-improved land</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2824%29 Non-combustible</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%283%29 Heavy Timber</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%284%29 Masonry Joist</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%285%29 Frame</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%286%29 Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%288%29 Boards on Joist</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%289%29 Brick</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Contract_Reviewed_by_ARMS__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Facility_Type__c</picklist>
+            <values>
+                <fullName>Affiliate Headquarters</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ancillary</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Express Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Facility Under Construction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lab</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medical Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Miscellaneous</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Parking Lot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pharmacy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>School-Based Health Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Secondary Administrative Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unoccupied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warehouse</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Hot_work_during_construction__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Internal_Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LocationType</picklist>
+            <values>
+                <fullName>Facility</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>NFIP_Status__c</picklist>
+            <values>
+                <fullName>NFIP Local</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NFIP through ARMS%2FMarsh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self Insure</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Owned_Leased__c</picklist>
+            <values>
+                <fullName>Leased</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Owned</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Special_Status__c</picklist>
+            <values>
+                <fullName>Leased to Third Party - Under Construction - Occupied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Leased to Third Party - Under Construction - Unoccupied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Leased to Third-Party</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under Construction - Occupied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under Construction - Unoccupied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undeveloped Land</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unoccupied</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Water_Fire_Sys_Imp_During_Constr__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Location</fullName>
+        <active>true</active>
+        <label>Location</label>
+        <picklistValues>
+            <picklist>Builders_risk_coverage_needed__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Constr_Cert_of_Liability_Ins_Obtained__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Construction_Type1__c</picklist>
+            <values>
+                <fullName>%281%29 Fire Resistive%2FHeavy NC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2810%29 Wood Frame</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2811%29 Masonry Non-Combustible</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2812%29 Concrete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2813%29 Cinder Block</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2814%29 Steel Deck %28combustible%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2815%29 Wood Truss on Steel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2817%29 Plywood on Lam%2E Beams</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2818%29 Protected Steel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%282%29 Steel Deck %26 Other Light NC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2820%29 Plywood on Glue Lam%2E%2FWood Frame</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2822%29 Plywood on Lam%2E Beams%2FTilt-Up Concrete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2823%29 Un-improved land</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2824%29 Non-combustible</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%283%29 Heavy Timber</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%284%29 Masonry Joist</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%285%29 Frame</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%286%29 Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%288%29 Boards on Joist</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%289%29 Brick</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Contract_Reviewed_by_ARMS__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Facility_Type__c</picklist>
+            <values>
+                <fullName>Affiliate Headquarters</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Express Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Facility Under Construction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lab</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medical Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Miscellaneous</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Parking Lot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pharmacy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>School-Based Health Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Secondary Administrative Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unoccupied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warehouse</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Hot_work_during_construction__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Internal_Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LocationType</picklist>
+            <values>
+                <fullName>Location</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>NFIP_Status__c</picklist>
+            <values>
+                <fullName>NFIP Local</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NFIP through ARMS%2FMarsh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self Insure</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Owned_Leased__c</picklist>
+            <values>
+                <fullName>Leased</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Owned</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Special_Status__c</picklist>
+            <values>
+                <fullName>Ancillary Owned-Affiliate Operated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Leased to Third Party - Under Construction - Occupied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Leased to Third Party - Under Construction - Unoccupied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Leased to Third-Party</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under Construction - Occupied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under Construction - Unoccupied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Undeveloped Land</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unoccupied</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Water_Fire_Sys_Imp_During_Constr__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+</CustomObject>
