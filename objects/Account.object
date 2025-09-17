@@ -1,0 +1,2527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortalUser</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortalUser</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ResumeBilling</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ResumeBilling</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ResumeBilling</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SuspendBilling</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SuspendBilling</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SuspendBilling</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>AccountCustomLEX</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>AccountCustomLEX</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortalUser</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortalUser</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WebsiteHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WebsiteHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WebsiteHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>Account_Compact_Layout</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.TYPE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Account_Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.PHONE1</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CORE.USERS.ALIAS</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.TYPE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.TYPE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.PHONE1</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <compactLayouts>
+        <fullName>Account_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Type</fields>
+        <fields>Phone</fields>
+        <fields>Website</fields>
+        <fields>OwnerId</fields>
+        <fields>BillingAddress</fields>
+        <fields>ParentId</fields>
+        <label>Account Compact Layout</label>
+    </compactLayouts>
+    <fields>
+        <fullName>D_O__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>D&amp;O</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>EPL__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>EPL</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PAC__c</fullName>
+        <label>PAC?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>NFIP__c</fullName>
+        <description>National Flood Insurance Program</description>
+        <encryptionScheme>None</encryptionScheme>
+        <label>NFIP</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Crime__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Crime</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Legal__c</fullName>
+        <externalId>false</externalId>
+        <label>Legal</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other__c</fullName>
+        <externalId>false</externalId>
+        <label>Other</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Archive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <inlineHelpText>Check this box if the affiliate is no longer an affiliated member of PPFA.</inlineHelpText>
+        <label>Archive</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PAC_Name__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>PAC Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>of_Staff__c</fullName>
+        <externalId>false</externalId>
+        <label># of Staff</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sum1AASC__c</fullName>
+        <externalId>false</externalId>
+        <label>sum1AASC</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sum2AASC__c</fullName>
+        <externalId>false</externalId>
+        <label>sum2AASC</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>All_Staff__c</fullName>
+        <externalId>false</externalId>
+        <formula>Legal__c  +  Communication_Marketing__c  +  Facility_Security__c  +  Information_Technology_Online_Services__c  +  Exec_Management_Admin_Support_Staff__c  +  Human_Resources_Volunteer_Support__c  +  Public_Policy_Advocacy_Political_Action__c  +  Accounting_Finance__c  +  Development_Fundraising__c  +  Medical_Billing__c  +  Call_Center__c  +  Other__c  +  Education_Communication_Outreach__c  +  Patient_Services_Administrative_Staff__c  +  Patient_Services_Clinical_Staff__c  +  Patient_Services_Clinical_Support_Staff__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>All Staff</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fiduciary__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Fiduciary</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ERISA_Bond__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>ERISA Bond</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PAC_Budget__c</fullName>
+        <label>PAC Budget</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Call_Center__c</fullName>
+        <externalId>false</externalId>
+        <label>Call Center</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CaseSafe_ID__c</fullName>
+        <description>Case Safe ID used for excel to mass updates can be done and Vlookups</description>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <inlineHelpText>Case Safe ID used for excel to mass updates can be done and Vlookups</inlineHelpText>
+        <label>CaseSafe ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Change_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Date Change Effective:</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Mass_Update__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Use to mass update to fire off workflow rules</description>
+        <label>Mass Update</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>STI_HIVAASC__c</fullName>
+        <externalId>false</externalId>
+        <label>STI HIV AASC</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Affiliate_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>true</externalId>
+        <label>Affiliate/Ancillary ID</label>
+        <length>150</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Email_Domain__c</fullName>
+        <description>email domain address for accounts.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>email domain address for accounts. For use with reporting</inlineHelpText>
+        <label>Email Domain</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Invoice_Sent__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Invoice Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>numLocations__c</fullName>
+        <externalId>false</externalId>
+        <label>DAD Number of Locations</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Count__c</fullName>
+        <description>Power of one 
+https://success.salesforce.com/answers?id=9063000000048RbAAI</description>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Annual_Budget__c</fullName>
+        <label>Annual Budget</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Email__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Contact Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DAD_Last_Sync__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>DAD Last Sync</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Location_Type__c</fullName>
+        <label>Location Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Type</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Health Center</fullName>
+                    <default>false</default>
+                    <label>Health Center</label>
+                </value>
+                <value>
+                    <fullName>Headquarters</fullName>
+                    <default>false</default>
+                    <label>Headquarters</label>
+                </value>
+                <value>
+                    <fullName>Ancillary Organizations</fullName>
+                    <default>false</default>
+                    <label>Ancillary Organizations</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Affiliate</controllingFieldValue>
+                <valueName>Health Center</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Affiliate</controllingFieldValue>
+                <valueName>Headquarters</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Affiliate</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Miscellaneous__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Miscellaneous E&amp;O</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Specialty_E_O__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Specialty E&amp;O</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>APR_Subscriber__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>APR Subscriber?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Account_Status__c</fullName>
+        <label>Account Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>true</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Inactive</fullName>
+                    <default>false</default>
+                    <label>Inactive</label>
+                </value>
+                <value>
+                    <fullName>Dissolved</fullName>
+                    <default>false</default>
+                    <label>Dissolved</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>All_Staff_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>All Staff Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Address__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Contact Address</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Follow_Up_Notes__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Follow Up Notes</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Foreign_Package__c</fullName>
+        <description>The date on this field is the renewal date for this coverage for this affiliate and indicates that ARMS has placed stand-alone coverage of this type.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Foreign Package</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>IRS_Designation__c</fullName>
+        <label>IRS Designation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>501c2</fullName>
+                    <default>false</default>
+                    <label>501c2</label>
+                </value>
+                <value>
+                    <fullName>501c3</fullName>
+                    <default>false</default>
+                    <label>501c3</label>
+                </value>
+                <value>
+                    <fullName>501c4</fullName>
+                    <default>false</default>
+                    <label>501c4</label>
+                </value>
+                <value>
+                    <fullName>501e</fullName>
+                    <default>false</default>
+                    <label>501e</label>
+                </value>
+                <value>
+                    <fullName>LLC</fullName>
+                    <default>false</default>
+                    <label>LLC</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Insurance_Notes__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Insurance Notes</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Medical_Billing__c</fullName>
+        <externalId>false</externalId>
+        <label>Medical Billing</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DAD_Affiliate_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>true</externalId>
+        <inlineHelpText>External Unique ID from DAD for Organizations</inlineHelpText>
+        <label>DAD Affiliate ID</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Date_Lead_Vetted__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Date Lead Vetted</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Employed_Lawyers__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Employed Lawyers</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Payment_Received__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Payment Received</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>AIMS_Affiliate_ID__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>true</externalId>
+        <label>AIMS Affiliate ID</label>
+        <length>150</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ancillary_Purpose__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Ancillary Purpose</label>
+        <length>5000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>2</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CEO_Account_Notes__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>CEO and CEO Executive Assistant have access to this field. System Admins can search this data, but it will not automatically be visible.</inlineHelpText>
+        <label>CEO Account Notes (private)</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Contracted_Amount__c</fullName>
+        <label>Contracted Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Facility_Security__c</fullName>
+        <externalId>false</externalId>
+        <label>Facility/Security</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_Updated_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Last Updated Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Source_Notes__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Lead Source Notes</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Live_Chat_Account__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used to indicate that a account shows in the list of accounts on the live chat initial connection page</description>
+        <label>Live Chat Account</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SABA_Affiliate_ID__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>SABA Affiliate ID</label>
+        <length>150</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>wellWomenExamAASC__c</fullName>
+        <externalId>false</externalId>
+        <label>DAD Well Woman Exam AASC</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Accounting_Finance__c</fullName>
+        <externalId>false</externalId>
+        <label>Accounting/Finance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Source_Detail__c</fullName>
+        <label>Lead Source Detail</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Alliance for Continuing Education in the Health Professions (ACEhp) Conference</fullName>
+                    <default>false</default>
+                    <label>Alliance for Continuing Education in the Health Professions (ACEhp) Conference</label>
+                </value>
+                <value>
+                    <fullName>International Meeting on Simulation in Healthcare (IMSH)</fullName>
+                    <default>false</default>
+                    <label>International Meeting on Simulation in Healthcare (IMSH)</label>
+                </value>
+                <value>
+                    <fullName>International Federation of Gynecology and Obstetrics (FIGO) World Congress of Gynecology &amp; Obstetrics</fullName>
+                    <default>false</default>
+                    <label>International Federation of Gynecology and Obstetrics (FIGO) World Congress of Gynecology &amp; Obstetrics</label>
+                </value>
+                <value>
+                    <fullName>Nurse Practitioners in Women’s Health (NPWH) Premier Women&apos;s Healthcare Conference</fullName>
+                    <default>false</default>
+                    <label>Nurse Practitioners in Women’s Health (NPWH) Premier Women&apos;s Healthcare Conference</label>
+                </value>
+                <value>
+                    <fullName>Learning Technologies</fullName>
+                    <default>false</default>
+                    <label>Learning Technologies</label>
+                </value>
+                <value>
+                    <fullName>The American Congress of Obstetricians and Gynecologists (ACOG) Annual Meeting</fullName>
+                    <default>false</default>
+                    <label>The American Congress of Obstetricians and Gynecologists (ACOG) Annual Meeting</label>
+                </value>
+                <value>
+                    <fullName>National Reproductive Health Conference (Title X)</fullName>
+                    <default>false</default>
+                    <label>National Reproductive Health Conference (Title X)</label>
+                </value>
+                <value>
+                    <fullName>National Medical Committee (NMC) / Forum on Family Planning (FFP)</fullName>
+                    <default>false</default>
+                    <label>National Medical Committee (NMC) / Forum on Family Planning (FFP)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Previous_Quarter_c__c</fullName>
+        <description>This provides a merge field used by Conga for the Quarterly Insurance Carrier update.</description>
+        <externalId>false</externalId>
+        <formula>CASE( MONTH( ( TODAY() ) ),
+4, &apos;Q1 - &apos;&amp; TEXT(YEAR(( TODAY() ))),
+5, &apos;Q1 - &apos;&amp; TEXT(YEAR(( TODAY() ))),
+6, &apos;Q1 - &apos;&amp; TEXT(YEAR(( TODAY() ))),
+7, &apos;Q2 - &apos;&amp; TEXT(YEAR(( TODAY() ))),
+8, &apos;Q2 - &apos;&amp; TEXT(YEAR(( TODAY() ))),
+9, &apos;Q2 - &apos;&amp; TEXT(YEAR(( TODAY() ))),
+10,&apos;Q3 - &apos;&amp; TEXT(YEAR(( TODAY() ))),
+11,&apos;Q3 - &apos;&amp; TEXT(YEAR(( TODAY() ))),
+12,&apos;Q3 - &apos;&amp; TEXT(YEAR(( TODAY() ))),
+1,&apos;Q4 - &apos;&amp; TEXT(YEAR(( TODAY() ))-1),
+2,&apos;Q4 - &apos;&amp; TEXT(YEAR(( TODAY() ))-1),
+3,&apos;Q4 - &apos;&amp; TEXT(YEAR(( TODAY() ))-1),
+&apos;0&apos;
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicates prior quarter from today for the Insurance Carrier merge output.</inlineHelpText>
+        <label>Previous Quarter</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Products_Liability__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Products Liability</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>pregnancyTestsAASC__c</fullName>
+        <externalId>false</externalId>
+        <label>DAD Pregnancy Tests AASC</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Affiliate_Site_Code__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Affiliate Site Code</label>
+        <length>150</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>totalVisitsQVOL_YTD__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Visits QVOL YTD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Affiliate_Legal_Name__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Affiliate Legal Name</label>
+        <length>150</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ancillary_Legal_Name__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Used only for Ancillary Organizations</inlineHelpText>
+        <label>Ancillary Legal Name</label>
+        <length>200</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Associated_Account_s__c</fullName>
+        <description>This is a text field to indicate the associated affiliates for an ancillary account.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>This is a text field to indicate the associated affiliates for an ancillary account.</inlineHelpText>
+        <label>Associated Account(s)</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DAD_Affiliate_Budget__c</fullName>
+        <label>DAD Affiliate Budget</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Last_Affiliate_Event__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Populated automatically via Process Flow based on Event End Date</inlineHelpText>
+        <label>Last Affiliate Event</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Last_CEO_Orientation__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Populated automatically via Process Flow based on Event End Date</inlineHelpText>
+        <label>Last CEO Orientation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Last_Onsite_Workshop__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Populated automatically via Process Flow based on Event End Date</inlineHelpText>
+        <label>Last Onsite Workshop</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_Affiliate_Event__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next Affiliate Event</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_CEO_Orientation__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next CEO Orientation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_Onsite_Workshop__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next Onsite Workshop</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Total_Visits_QVOL_Q1__c</fullName>
+        <externalId>false</externalId>
+        <label>DAD Total Visits QVOL Q1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Visits_QVOL_Q2__c</fullName>
+        <externalId>false</externalId>
+        <label>DAD Total Visits QVOL Q2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Visits_QVOL_Q3__c</fullName>
+        <externalId>false</externalId>
+        <label>DAD Total Visits QVOL Q3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Visits_QVOL_Q4__c</fullName>
+        <externalId>false</externalId>
+        <label>DAD Total Visits QVOL Q4</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ancillary_Entity_Type__c</fullName>
+        <label>Ancillary Entity Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Clinical Provider</fullName>
+                    <default>false</default>
+                    <label>Clinical Provider</label>
+                </value>
+                <value>
+                    <fullName>Public Action Entity</fullName>
+                    <default>false</default>
+                    <label>Public Action Entity</label>
+                </value>
+                <value>
+                    <fullName>Real Estate Company</fullName>
+                    <default>false</default>
+                    <label>Real Estate Company</label>
+                </value>
+                <value>
+                    <fullName>Service Provider</fullName>
+                    <default>false</default>
+                    <label>Service Provider</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Action Fund/Public Affairs</fullName>
+                    <default>false</default>
+                    <label>Action Fund/Public Affairs</label>
+                </value>
+                <value>
+                    <fullName>Clinic/Service Provider</fullName>
+                    <default>false</default>
+                    <label>Clinic/Service Provider</label>
+                </value>
+                <value>
+                    <fullName>Endowment Fund</fullName>
+                    <default>false</default>
+                    <label>Endowment Fund</label>
+                </value>
+                <value>
+                    <fullName>Foundation</fullName>
+                    <default>false</default>
+                    <label>Foundation</label>
+                </value>
+                <value>
+                    <fullName>Holding Company</fullName>
+                    <default>false</default>
+                    <label>Holding Company</label>
+                </value>
+                <value>
+                    <fullName>SPA</fullName>
+                    <default>false</default>
+                    <label>SPA</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Inactive_Account_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Inactive or Dissolved Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Last_ARMS_Orientation__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Populated automatically via Process Flow based on Event End Date</inlineHelpText>
+        <label>Last ARMS Orientation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Last_Program_Interest__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Populated automatically via Process Flow based on Event End Date</inlineHelpText>
+        <label>Last Program Interest</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Last_RQM_Consultation__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Populated automatically via Process Flow based on Event End Date</inlineHelpText>
+        <label>Last RQM Consultation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_ARMS_Orientation__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next ARMS Orientation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_Program_Interest__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next Program Interest</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_RQM_Consultation__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next RQM Consultation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Occupancy_Description__c</fullName>
+        <label>Occupancy Description</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Administrative</fullName>
+                    <default>false</default>
+                    <label>Administrative</label>
+                </value>
+                <value>
+                    <fullName>Family Planning/Education/Counseling</fullName>
+                    <default>false</default>
+                    <label>Family Planning/Education/Counseling</label>
+                </value>
+                <value>
+                    <fullName>Medical Clinic/Health Services</fullName>
+                    <default>false</default>
+                    <label>Medical Clinic/Health Services</label>
+                </value>
+                <value>
+                    <fullName>Administrative and Medical Clinic</fullName>
+                    <default>false</default>
+                    <label>Administrative and Medical Clinic</label>
+                </value>
+                <value>
+                    <fullName>Vacant</fullName>
+                    <default>false</default>
+                    <label>Vacant</label>
+                </value>
+                <value>
+                    <fullName>Surgical and Family Planning</fullName>
+                    <default>false</default>
+                    <label>Surgical and Family Planning</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Laboratory</fullName>
+                    <default>false</default>
+                    <label>Laboratory</label>
+                </value>
+                <value>
+                    <fullName>Warehouse</fullName>
+                    <default>false</default>
+                    <label>Warehouse</label>
+                </value>
+                <value>
+                    <fullName>Under Construction</fullName>
+                    <default>false</default>
+                    <label>Under Construction</label>
+                </value>
+                <value>
+                    <fullName>Distribution</fullName>
+                    <default>false</default>
+                    <label>Distribution</label>
+                </value>
+                <value>
+                    <fullName>Distribution/Warehousing</fullName>
+                    <default>false</default>
+                    <label>Distribution/Warehousing</label>
+                </value>
+                <value>
+                    <fullName>Miscellaneous</fullName>
+                    <default>false</default>
+                    <label>Miscellaneous</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Vetting_Outcome_Notes__c</fullName>
+        <description>Mapped from Lead object&apos;s Vetting Outcome Notes</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Vetting Outcome Notes</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>totalPatientsQVOL_YTD__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Patients QVOL YTD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Affiliate_Merging_With__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Enter the name of affiliate(s) that are merging together.</inlineHelpText>
+        <label>Affiliate Merging With:</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Ancillary_Audit_Waiver__c</fullName>
+        <label>Ancillary Audit Waiver</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Audit Waiver</fullName>
+                    <default>false</default>
+                    <label>Audit Waiver</label>
+                </value>
+                <value>
+                    <fullName>Consolidated with Affiliate</fullName>
+                    <default>false</default>
+                    <label>Consolidated with Affiliate</label>
+                </value>
+                <value>
+                    <fullName>Separate Audit</fullName>
+                    <default>false</default>
+                    <label>Separate Audit</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Ancillary_of_Directors__c</fullName>
+        <externalId>false</externalId>
+        <label>Ancillary # of Directors</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_Activity_Planning__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Populated automatically via Process Flow based on Event End Date</inlineHelpText>
+        <label>Last Activity Planning</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Last_Introductory_Call__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Populated automatically via Process Flow based on Event End Date</inlineHelpText>
+        <label>Last Introductory Call</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Last_Train_the_trainer__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Populated automatically via Process Flow based on Event End Date</inlineHelpText>
+        <label>Last Train-the-trainer</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_Activity_Planning__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next Activity Planning</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_Introductory_Call__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next Introductory Call</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_Train_the_trainer__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next Train-the-trainer</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Projected_Invoice_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Projected Invoice Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Total_Patients_QVOL_Q1__c</fullName>
+        <externalId>false</externalId>
+        <label>DAD Total Patients QVOL Q1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Patients_QVOL_Q2__c</fullName>
+        <externalId>false</externalId>
+        <label>DAD Total Patients QVOL Q2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Patients_QVOL_Q3__c</fullName>
+        <externalId>false</externalId>
+        <label>DAD Total Patients QVOL Q3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Patients_QVOL_Q4__c</fullName>
+        <externalId>false</externalId>
+        <label>DAD Total Patients QVOL Q4</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Type_Department__c</fullName>
+        <label>Account Type Department</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Executive</fullName>
+                    <default>false</default>
+                    <label>Executive</label>
+                </value>
+                <value>
+                    <fullName>CAL</fullName>
+                    <default>false</default>
+                    <label>CAL</label>
+                </value>
+                <value>
+                    <fullName>Communications</fullName>
+                    <default>false</default>
+                    <label>Communications</label>
+                </value>
+                <value>
+                    <fullName>Human Resources</fullName>
+                    <default>false</default>
+                    <label>Human Resources</label>
+                </value>
+                <value>
+                    <fullName>Insurance</fullName>
+                    <default>false</default>
+                    <label>Insurance</label>
+                </value>
+                <value>
+                    <fullName>Finance</fullName>
+                    <default>false</default>
+                    <label>Finance</label>
+                </value>
+                <value>
+                    <fullName>RQPS</fullName>
+                    <default>false</default>
+                    <label>RQPS</label>
+                </value>
+                <value>
+                    <fullName>IT</fullName>
+                    <default>false</default>
+                    <label>IT</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Affiliate_Location_Code__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Affiliate Location Code</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Communication_Marketing__c</fullName>
+        <externalId>false</externalId>
+        <label>Communication/Marketing</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Development_Fundraising__c</fullName>
+        <externalId>false</externalId>
+        <label>Development/Fundraising</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_PelvicSim_Didactic__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Populated automatically via Process Flow based on Event End Date</inlineHelpText>
+        <label>Last PelvicSim Didactic</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_Accreditation_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>This field will be populated by the System Administrator.</inlineHelpText>
+        <label>Next Accreditation Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_PelvicSim_Didactic__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next PelvicSim Didactic</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Pre_Merger_Affiliate_ID__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>true</externalId>
+        <label>Pre-Merger Affiliate ID</label>
+        <length>150</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Affiliate_Archive_Change__c</fullName>
+        <inlineHelpText>Indicate what change is happening with this archived affiliate.</inlineHelpText>
+        <label>Affiliate Archive Change:</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Merge</fullName>
+                    <default>false</default>
+                    <label>Merge</label>
+                </value>
+                <value>
+                    <fullName>Disaffiliated</fullName>
+                    <default>false</default>
+                    <label>Disaffiliated</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Contact_Name_for_Invoice__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Contact Name for Invoice</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Last_PelvicSim_Practicum__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Populated automatically via Process Flow based on Event End Date</inlineHelpText>
+        <label>Last PelvicSim Practicum</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>NEW_Affiliate_Name_Merge__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>If affiliates are merging together and creating a NEW affiliate name - enter that name here.</inlineHelpText>
+        <label>NEW Affiliate Name (Merge)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Next_PelvicSim_Practicum__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next PelvicSim Practicum</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>No_Certificate_Requested__c</fullName>
+        <label>No Certificate Requested</label>
+        <summaryFilterItems>
+            <field>Affiliate_Event__c.Event_Type__c</field>
+            <operation>equals</operation>
+            <value>Certificate Request - Insurance</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Affiliate_Event__c.Affiliate_Account__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Last_Systems_Consultation__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Populated automatically via Process Flow based on Event End Date</inlineHelpText>
+        <label>Last Systems Consultation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_Systems_Consultation__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next Systems Consultation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Female_Contra_Clients_AASC__c</fullName>
+        <externalId>false</externalId>
+        <label>DAD Female Contra Clients AASC</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_External_Client_Visit__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Populated automatically via Process Flow based on Event End Date</inlineHelpText>
+        <label>Last External Client Visit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Last_Kickoff_Planning_Call__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Populated automatically via Process Flow based on Event End Date</inlineHelpText>
+        <label>Last Kickoff Planning Call</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Last_Training_Exhibit_Hall__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Populated automatically via Process Flow based on Event End Date</inlineHelpText>
+        <label>Last Training &amp; Exhibit Hall</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_External_Client_Visit__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next External Client Visit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_Kickoff_Planning_Call__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next Kickoff Planning Call</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_Training_Exhibit_Hall__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next Training &amp; Exhibit Hall</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>abortionProceduresQVOL_YTD__c</fullName>
+        <externalId>false</externalId>
+        <label>Abortion Procedures QVOL YTD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Abortion_Procedures_QVOL_Q1__c</fullName>
+        <externalId>false</externalId>
+        <label>DAD Abortion Procedures QVOL Q1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Abortion_Procedures_QVOL_Q2__c</fullName>
+        <externalId>false</externalId>
+        <label>DAD Abortion Procedures QVOL Q2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Abortion_Procedures_QVOL_Q3__c</fullName>
+        <externalId>false</externalId>
+        <label>DAD Abortion Procedures QVOL Q3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Abortion_Procedures_QVOL_Q4__c</fullName>
+        <externalId>false</externalId>
+        <label>DAD Abortion Procedures QVOL Q4</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_Affiliate_Office_Visit__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Populated automatically via Process Flow based on Event End Date</inlineHelpText>
+        <label>Last Affiliate Office Visit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_Affiliate_Office_Visit__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next Affiliate Office Visit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Last_Affiliate_Board_Meeting__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Populated automatically via Process Flow based on Event End Date</inlineHelpText>
+        <label>Last Affiliate Board Meeting</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_Affiliate_Board_Meeting__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next Affiliate Board Meeting</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>No_Contract_Review_Requested__c</fullName>
+        <label>No Contract Review Requested</label>
+        <summaryFilterItems>
+            <field>Affiliate_Event__c.Event_Type__c</field>
+            <operation>equals</operation>
+            <value>Contract Review Request</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Affiliate_Event__c.Affiliate_Account__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Sexual_Molestation_Liability__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Sexual Molestation Liability</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Last_Virtual_Support_Training__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Populated automatically via Process Flow based on Event End Date</inlineHelpText>
+        <label>Last Virtual Support/Training</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_Virtual_Support_Training__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next Virtual Support/Training</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Total_Visits_QVOL_YTD_Formula__c</fullName>
+        <description>Total Visits QVOL YTD</description>
+        <externalId>false</externalId>
+        <formula>/*
+Total_Visits_QVOL_Q1__c +
+Total_Visits_QVOL_Q2__c +
+Total_Visits_QVOL_Q3__c +
+Total_Visits_QVOL_Q4__c
+*/
+IF(
+And(Total_Visits_QVOL_Q1__c &gt;= 0,
+Total_Visits_QVOL_Q2__c &gt;= 0,
+Total_Visits_QVOL_Q3__c &gt;= 0,
+Total_Visits_QVOL_Q4__c &gt;= 0),
+Total_Visits_QVOL_Q1__c +
+Total_Visits_QVOL_Q2__c +
+Total_Visits_QVOL_Q3__c +
+Total_Visits_QVOL_Q4__c,
+IF(
+And(Total_Visits_QVOL_Q1__c &gt;= 0,
+Total_Visits_QVOL_Q2__c &gt;= 0,
+Total_Visits_QVOL_Q3__c &gt;= 0),
+Total_Visits_QVOL_Q1__c +
+Total_Visits_QVOL_Q2__c +
+Total_Visits_QVOL_Q3__c,
+IF(
+And(Total_Visits_QVOL_Q1__c &gt;= 0,
+Total_Visits_QVOL_Q2__c &gt;= 0),
+Total_Visits_QVOL_Q1__c +
+Total_Visits_QVOL_Q2__c, Total_Visits_QVOL_Q1__c
+)))</formula>
+        <inlineHelpText>Total Visits QVOL YTD</inlineHelpText>
+        <label>Total Visits QVOL YTD Formula</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>miscarriageManagementQVOL_YTD__c</fullName>
+        <externalId>false</externalId>
+        <label>Miscarriage Mgmt QVOL YTD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_Planning_Committee_Detail__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Last Planning Committee Detail</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Miscarriage_Management_QVOL_Q1__c</fullName>
+        <externalId>false</externalId>
+        <label>DAD Miscarriage Mgmt QVOL Q1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Miscarriage_Management_QVOL_Q2__c</fullName>
+        <externalId>false</externalId>
+        <label>DAD Miscarriage Mgmt QVOL Q2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Miscarriage_Management_QVOL_Q3__c</fullName>
+        <externalId>false</externalId>
+        <label>DAD Miscarriage Mgmt QVOL Q3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Miscarriage_Management_QVOL_Q4__c</fullName>
+        <externalId>false</externalId>
+        <label>DAD Miscarriage Mgmt QVOL Q4</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Most_Recent_Accreditation_Date__c</fullName>
+        <description>To track the most  recent accreditation date at the affiliate.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>This data will be populated by the System Administrators.</inlineHelpText>
+        <label>Most Recent Accreditation Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_Planning_Committee_Detail__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next Planning Committee Detail</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Patient_Services_Clinical_Staff__c</fullName>
+        <externalId>false</externalId>
+        <label>Patient Services Clinical Staff</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Patients_QVOL_YTD_formula__c</fullName>
+        <description>Do not Put on Page Layout, Used for field update &quot;Total Patients QVOL YTD&quot;</description>
+        <externalId>false</externalId>
+        <formula>/*
+Total_Patients_QVOL_Q1__c + 
+Total_Patients_QVOL_Q2__c + 
+Total_Patients_QVOL_Q3__c + 
+Total_Patients_QVOL_Q4__c
+*/
+
+IF(
+And(Total_Patients_QVOL_Q1__c &gt;= 0,
+Total_Patients_QVOL_Q2__c &gt;= 0,
+Total_Patients_QVOL_Q3__c &gt;= 0,
+Total_Patients_QVOL_Q4__c &gt;= 0),
+Total_Patients_QVOL_Q1__c +
+Total_Patients_QVOL_Q2__c +
+Total_Patients_QVOL_Q3__c +
+Total_Patients_QVOL_Q4__c,
+IF(
+And(Total_Patients_QVOL_Q1__c &gt;= 0,
+Total_Patients_QVOL_Q2__c &gt;= 0,
+Total_Patients_QVOL_Q3__c &gt;= 0),
+Total_Patients_QVOL_Q1__c +
+Total_Patients_QVOL_Q2__c +
+Total_Patients_QVOL_Q3__c,
+IF(
+And(Total_Patients_QVOL_Q1__c &gt;= 0,
+Total_Patients_QVOL_Q2__c &gt;= 0),
+Total_Patients_QVOL_Q1__c +
+Total_Patients_QVOL_Q2__c, Total_Patients_QVOL_Q1__c
+)))</formula>
+        <inlineHelpText>Do not Put on Page Layout, Used for field update &quot;Total Patients QVOL YTD&quot;</inlineHelpText>
+        <label>Total Patients QVOL YTD formula</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Education_Communication_Outreach__c</fullName>
+        <externalId>false</externalId>
+        <label>Education/Communication Outreach</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Most_Recent_Accreditation_Status__c</fullName>
+        <inlineHelpText>This field will be updated by the System Administrator.</inlineHelpText>
+        <label>Most Recent Accreditation Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Full</fullName>
+                    <default>false</default>
+                    <label>Full</label>
+                </value>
+                <value>
+                    <fullName>Partial</fullName>
+                    <default>false</default>
+                    <label>Partial</label>
+                </value>
+                <value>
+                    <fullName>Conditional</fullName>
+                    <default>false</default>
+                    <label>Conditional</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Human_Resources_Volunteer_Support__c</fullName>
+        <externalId>false</externalId>
+        <label>Human Resources/Volunteer Support</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contract_Review_Request_Completion__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Date that the Contract Review Request - Insurance/Legal was completed. Populated automatically via Process Flow based on Date Request Completed date.</inlineHelpText>
+        <label>Contract Review Request Completion</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Last_Certificate_Request_Insurance__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Last Certificate Request - Insurance</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_Certificate_Request_Insurance__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next Certificate Request - Insurance</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Exec_Management_Admin_Support_Staff__c</fullName>
+        <externalId>false</externalId>
+        <label>Executive Management/Admin Support Staff</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_Activity_Accreditation_Request__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Populated automatically via Process Flow based on Event End Date</inlineHelpText>
+        <label>Last Activity Accreditation Request</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Program_of_Interest_TeamSTEPPS__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Lead Program of Interest: TeamSTEPPS</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Next_Activity_Accreditation_Request__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next Activity Accreditation Request</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Last_Affiliate_Invoicing_and_Payment__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Populated automatically via Process Flow based on Event End Date</inlineHelpText>
+        <label>Last Affiliate Invoicing and Payment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Program_of_Interest_CAL_Courses__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Lead Program of Interest: CAL Courses</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Next_Affiliate_Invoicing_and_Payment__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next Affiliate Invoicing and Payment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Patient_Services_Administrative_Staff__c</fullName>
+        <externalId>false</externalId>
+        <label>Patient Services Administrative Staff</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Information_Technology_Online_Services__c</fullName>
+        <externalId>false</externalId>
+        <label>Information Technology/Online Services</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_Contract_Review_Request_Insurance__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Last Contract Review Request - Insurance</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Program_of_Interest_Accreditation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Lead Program of Interest: Accreditation</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Next_Contract_Review_Request_Insurance__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Next Contract Review Request - Insurance</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Program_of_Interest_ARMS_PelvicSim__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Lead Program of Interest: ARMS PelvicSim</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Patient_Services_Clinical_Support_Staff__c</fullName>
+        <externalId>false</externalId>
+        <label>Patient Services Clinical Support Staff</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Public_Policy_Advocacy_Political_Action__c</fullName>
+        <externalId>false</externalId>
+        <label>Public Policy/Advocacy/Political Action</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Certificate_Request_Insurance_Completion__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Date that the Certificate Request Insurance  completed.  Populated automatically via Process Flow based on Date Request Completed date.</inlineHelpText>
+        <label>Certificate Request Insurance Completion</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+</CustomObject>

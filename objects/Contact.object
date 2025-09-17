@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortal</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortal</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortal</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnablePartnerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnablePartnerPortalUser</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnablePartnerPortalUser</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableSelfService</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableSelfService</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableSelfService</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Merge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Merge</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Merge</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewContact</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewContact</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewContact</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>ContactCustomLEX</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>ContactCustomLEX</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortal</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortal</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortal</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewPartnerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewPartnerPortalUser</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewPartnerPortalUser</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewSelfService</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewSelfService</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewSelfService</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Contact_Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Contact_Roles__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Primary_Leadership_Role__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.PHONE1</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.PHONE3</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.EMAIL</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.ADDRESS2_CITY</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.ADDRESS2_STATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTACT.TITLE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Contact_Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Primary_Leadership_Role__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Contact_Roles__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTACT.PHONE1</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTACT.EMAIL</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTACT.ADDRESS2_CITY</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTACT.ADDRESS2_STATE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE4</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE3</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE5</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE6</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.TITLE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Contact_Roles__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Contact_Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Primary_Leadership_Role__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.PHONE1</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.EMAIL</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.ADDRESS2_CITY</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.ADDRESS2_STATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <fields>
+        <fullName>DAD_City__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>DAD City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MatchKey__c</fullName>
+        <defaultValue>&apos;FALSE&apos;</defaultValue>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>MatchKey</label>
+        <length>5</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NDA_Sent__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>XXX-NDA Sent</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ARMS_Role__c</fullName>
+        <label>ARMS Role</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>President/CEO</fullName>
+                    <default>false</default>
+                    <label>President/CEO</label>
+                </value>
+                <value>
+                    <fullName>COO</fullName>
+                    <default>false</default>
+                    <label>COO</label>
+                </value>
+                <value>
+                    <fullName>CFO</fullName>
+                    <default>false</default>
+                    <label>CFO</label>
+                </value>
+                <value>
+                    <fullName>Senior Leadership Team</fullName>
+                    <default>false</default>
+                    <label>Senior Leadership Team</label>
+                </value>
+                <value>
+                    <fullName>Staff</fullName>
+                    <default>false</default>
+                    <label>Staff</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ARMS_User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>ARMS User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DAD_Email__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>true</externalId>
+        <inlineHelpText>This is the field that pulls the data directly from the DAD. The other email field is for ARMS staff to populate if and when we have a better email address for a contact, so that the DAD does not overwrite that information.</inlineHelpText>
+        <label>DAD Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DAD_Phone__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>This is the field that pulls the data directly from the DAD. The other email field is for ARMS staff to populate if and when we have a better work phone number for a contact, so that the DAD does not overwrite that information.</inlineHelpText>
+        <label>DAD Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>DAD_Roles__c</fullName>
+        <label>DAD Roles</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Board Chair</fullName>
+                    <default>false</default>
+                    <label>Board Chair</label>
+                </value>
+                <value>
+                    <fullName>Affiliate CEO</fullName>
+                    <default>false</default>
+                    <label>Affiliate CEO</label>
+                </value>
+                <value>
+                    <fullName>Affiliate COO</fullName>
+                    <default>false</default>
+                    <label>Affiliate COO</label>
+                </value>
+                <value>
+                    <fullName>Affiliate CFO/Head of Finance</fullName>
+                    <default>false</default>
+                    <label>Affiliate CFO/Head of Finance</label>
+                </value>
+                <value>
+                    <fullName>Affiliate Medical Director</fullName>
+                    <default>false</default>
+                    <label>Affiliate Medical Director</label>
+                </value>
+                <value>
+                    <fullName>Affiliate Head of Education</fullName>
+                    <default>false</default>
+                    <label>Affiliate Head of Education</label>
+                </value>
+                <value>
+                    <fullName>Affiliate Head of Patient Services</fullName>
+                    <default>false</default>
+                    <label>Affiliate Head of Patient Services</label>
+                </value>
+                <value>
+                    <fullName>Affiliate Head of Training</fullName>
+                    <default>false</default>
+                    <label>Affiliate Head of Training</label>
+                </value>
+                <value>
+                    <fullName>Affiliate Head of Human Resources</fullName>
+                    <default>false</default>
+                    <label>Affiliate Head of Human Resources</label>
+                </value>
+                <value>
+                    <fullName>Affiliate Facilities Manager</fullName>
+                    <default>false</default>
+                    <label>Affiliate Facilities Manager</label>
+                </value>
+                <value>
+                    <fullName>Affiliate Head of Risk Management</fullName>
+                    <default>false</default>
+                    <label>Affiliate Head of Risk Management</label>
+                </value>
+                <value>
+                    <fullName>Ancillary CEO</fullName>
+                    <default>false</default>
+                    <label>Ancillary CEO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DAD_State__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>DAD State</label>
+        <length>2</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DAD_Title__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>DAD Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Extension__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Extension</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Person_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Used for integrating data from PPFA SQL DB extract to Salesforce.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>true</externalId>
+        <label>DAD Person ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>CASESAFEID__c</fullName>
+        <description>Convert 15 digit Salesforce IDs to 18 digits, case insensitive IDs</description>
+        <externalId>false</externalId>
+        <formula>CASESAFEID( Id )</formula>
+        <label>CASESAFEID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DAD_Mobile__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>This is the field that pulls the data directly from the DAD. The other email field is for ARMS staff to populate if and when we have a better mobile number for a contact, so that the DAD does not overwrite that information.</inlineHelpText>
+        <label>DAD Mobile</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Credentials__c</fullName>
+        <label>Credentials</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Credentials</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Facility_ID__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>DAD Facility ID</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mass_Update__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>used to mass update all records to trigger workflow rules</description>
+        <label>Mass Update</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Type__c</fullName>
+        <inlineHelpText>Please select the value(s) that best defines the relationship between the contact and ARMS.</inlineHelpText>
+        <label>Contact Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CAL - Pelvic Sim</fullName>
+                    <default>false</default>
+                    <label>CAL - Pelvic Sim</label>
+                </value>
+                <value>
+                    <fullName>CAL - Course Resource</fullName>
+                    <default>false</default>
+                    <label>CAL - Course Resource</label>
+                </value>
+                <value>
+                    <fullName>CAL - Platform Support</fullName>
+                    <default>false</default>
+                    <label>CAL - Platform Support</label>
+                </value>
+                <value>
+                    <fullName>CAL - Lead Admin</fullName>
+                    <default>false</default>
+                    <label>CAL - Lead Admin</label>
+                </value>
+                <value>
+                    <fullName>PBV</fullName>
+                    <default>false</default>
+                    <label>PBV</label>
+                </value>
+                <value>
+                    <fullName>other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>CAL - Admin</fullName>
+                    <default>false</default>
+                    <label>CAL - Admin</label>
+                </value>
+                <value>
+                    <fullName>AASC Coordinator</fullName>
+                    <default>false</default>
+                    <label>AASC Coordinator</label>
+                </value>
+                <value>
+                    <fullName>Property Coordinator</fullName>
+                    <default>false</default>
+                    <label>Property Coordinator</label>
+                </value>
+                <value>
+                    <fullName>CEO</fullName>
+                    <default>false</default>
+                    <label>CEO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>NDA_Received__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>XXX-NDA Received</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Relationship__c</fullName>
+        <inlineHelpText>Please select the value(s) that best defines the relationship between the contact and ARMS.</inlineHelpText>
+        <label>XXX-Relationship</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ARMS PelvicSim</fullName>
+                    <default>false</default>
+                    <label>ARMS PelvicSim</label>
+                </value>
+                <value>
+                    <fullName>ARMS Staff</fullName>
+                    <default>false</default>
+                    <label>ARMS Staff</label>
+                </value>
+                <value>
+                    <fullName>Course Resource</fullName>
+                    <default>false</default>
+                    <label>Course Resource</label>
+                </value>
+                <value>
+                    <fullName>CAL Affiliate Contact</fullName>
+                    <default>false</default>
+                    <label>CAL Affiliate Contact</label>
+                </value>
+                <value>
+                    <fullName>CAL Platform Support</fullName>
+                    <default>false</default>
+                    <label>CAL Platform Support</label>
+                </value>
+                <value>
+                    <fullName>General - Affiliate</fullName>
+                    <default>false</default>
+                    <label>General - Affiliate</label>
+                </value>
+                <value>
+                    <fullName>General - External</fullName>
+                    <default>false</default>
+                    <label>General - External</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Active_Lookup__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>lookup created to make a filtered related list on the account to only show Active Contacts on Account</description>
+        <label>Active Lookup</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Active Contacts</relationshipLabel>
+        <relationshipName>Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Count__c</fullName>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contact Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Roles__c</fullName>
+        <label>Contact Roles</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Head of Finance</fullName>
+                    <default>false</default>
+                    <label>Head of Finance</label>
+                </value>
+                <value>
+                    <fullName>Head of Development/Fundraising</fullName>
+                    <default>false</default>
+                    <label>Head of Development/Fundraising</label>
+                </value>
+                <value>
+                    <fullName>Head of Education</fullName>
+                    <default>false</default>
+                    <label>Head of Education</label>
+                </value>
+                <value>
+                    <fullName>Head of Human Resources</fullName>
+                    <default>false</default>
+                    <label>Head of Human Resources</label>
+                </value>
+                <value>
+                    <fullName>Head of Information Technology</fullName>
+                    <default>false</default>
+                    <label>Head of Information Technology</label>
+                </value>
+                <value>
+                    <fullName>Head of Marketing</fullName>
+                    <default>false</default>
+                    <label>Head of Marketing</label>
+                </value>
+                <value>
+                    <fullName>Head of Patient Services</fullName>
+                    <default>false</default>
+                    <label>Head of Patient Services</label>
+                </value>
+                <value>
+                    <fullName>Head of Public Policy</fullName>
+                    <default>false</default>
+                    <label>Head of Public Policy</label>
+                </value>
+                <value>
+                    <fullName>Head of Quality Assurance</fullName>
+                    <default>false</default>
+                    <label>Head of Quality Assurance</label>
+                </value>
+                <value>
+                    <fullName>Head of Security</fullName>
+                    <default>false</default>
+                    <label>Head of Security</label>
+                </value>
+                <value>
+                    <fullName>Medical Director</fullName>
+                    <default>false</default>
+                    <label>Medical Director</label>
+                </value>
+                <value>
+                    <fullName>Primary Data Guru</fullName>
+                    <default>false</default>
+                    <label>Primary Data Guru</label>
+                </value>
+                <value>
+                    <fullName>Secondary Data Guru</fullName>
+                    <default>false</default>
+                    <label>Secondary Data Guru</label>
+                </value>
+                <value>
+                    <fullName>Affiliate Lead Clinician</fullName>
+                    <default>false</default>
+                    <label>Affiliate Lead Clinician</label>
+                </value>
+                <value>
+                    <fullName>Affiliate Clinician</fullName>
+                    <default>false</default>
+                    <label>Affiliate Clinician</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DAD_Address_1__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>DAD Address 1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DAD_Address_2__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>DAD Address 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DAD_Last_Name__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>DAD Last Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DAD_Last_Sync__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>DAD Last Sync</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DAD_Main_Line__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>DAD Main Line</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Date_Inactive__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>Date this contact became inactive</inlineHelpText>
+        <label>Date Inactive</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Employee_PPFA__c</fullName>
+        <defaultValue>false</defaultValue>
+        <inlineHelpText>Is this person an employee of PPFA?</inlineHelpText>
+        <label>Employee PPFA</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Facility_Name__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>DAD Facility Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Origin__c</fullName>
+        <label>Contact Origin</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Newsletter List 2019</fullName>
+                    <default>false</default>
+                    <label>Newsletter List 2019</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Contact_Status__c</fullName>
+        <inlineHelpText>Inactive means the person has left the Affiliation Organization</inlineHelpText>
+        <label>Contact Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>true</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Inactive</fullName>
+                    <default>false</default>
+                    <label>Inactive</label>
+                </value>
+                <value>
+                    <fullName>On Leave</fullName>
+                    <default>false</default>
+                    <label>On Leave</label>
+                </value>
+                <value>
+                    <fullName>temp</fullName>
+                    <default>false</default>
+                    <label>temp</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DAD_First_Name__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>DAD First Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DAD_Postal_Code__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>DAD Postal Code</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Inactive_Lookup__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>lookup created to make a filtered related list on the account to only show Inactive Contacts on Account</description>
+        <label>Inactive Lookup</label>
+        <lookupFilter>
+            <active>false</active>
+            <filterItems>
+                <field>$Source.Contact_Status__c</field>
+                <operation>equals</operation>
+                <value>Inactive</value>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Inactive Contacts</relationshipLabel>
+        <relationshipName>Contacts1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CEO_Contact_Notes__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>CEO and CEO Executive Assistant have access to this field. System Admins can search this data, but it will not automatically be visible.</inlineHelpText>
+        <label>XXX-CEO Contact Notes (private)</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Contact_CaseSafe_ID__c</fullName>
+        <description>Convert 15 digit Salesforce IDs to 18 digits, case insensitive IDs</description>
+        <externalId>false</externalId>
+        <formula>CASESAFEID( Id )</formula>
+        <label>XXX-Contact CaseSafe ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Legacy_Affiliate_ID__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>DAD Legacy Affiliate ID</label>
+        <length>150</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Run_Assignment_Rules__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>08192019 LG@IC Duplicate and Assignment rules to run on Contacts where checked. Allows for flow and PB to uncheck and bypass rules.</description>
+        <label>Run Assignment Rules</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Original_Affiliate_ID__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Original Affiliate ID</label>
+        <length>150</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Original_Affiliate_Name__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Original Affiliate Name</label>
+        <length>150</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Primary_Leadership_Role__c</fullName>
+        <inlineHelpText>If this contact serves on the leadership team of an organization, please indicate their role here. If not, please leave this field empty and choose their role from the &quot;Contact Roles&quot; field.</inlineHelpText>
+        <label>Primary Leadership Role</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Board Chair</fullName>
+                    <default>false</default>
+                    <label>Board Chair</label>
+                </value>
+                <value>
+                    <fullName>Affiliate CEO</fullName>
+                    <default>false</default>
+                    <label>Affiliate CEO</label>
+                </value>
+                <value>
+                    <fullName>Affiliate COO</fullName>
+                    <default>false</default>
+                    <label>Affiliate COO</label>
+                </value>
+                <value>
+                    <fullName>Affiliate CFO/Head of Finance</fullName>
+                    <default>false</default>
+                    <label>Affiliate CFO/Head of Finance</label>
+                </value>
+                <value>
+                    <fullName>Affiliate Medical Director</fullName>
+                    <default>false</default>
+                    <label>Affiliate Medical Director</label>
+                </value>
+                <value>
+                    <fullName>Affiliate Head of Education</fullName>
+                    <default>false</default>
+                    <label>Affiliate Head of Education</label>
+                </value>
+                <value>
+                    <fullName>Affiliate Head of Patient Services</fullName>
+                    <default>false</default>
+                    <label>Affiliate Head of Patient Services</label>
+                </value>
+                <value>
+                    <fullName>Affiliate Head of Training</fullName>
+                    <default>false</default>
+                    <label>Affiliate Head of Training</label>
+                </value>
+                <value>
+                    <fullName>Affiliate Head of Human Resources</fullName>
+                    <default>false</default>
+                    <label>Affiliate Head of Human Resources</label>
+                </value>
+                <value>
+                    <fullName>Affiliate Facilities Manager</fullName>
+                    <default>false</default>
+                    <label>Affiliate Facilities Manager</label>
+                </value>
+                <value>
+                    <fullName>Affiliate Head of Risk Management</fullName>
+                    <default>false</default>
+                    <label>Affiliate Head of Risk Management</label>
+                </value>
+                <value>
+                    <fullName>Ancillary CEO</fullName>
+                    <default>false</default>
+                    <label>Ancillary CEO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>
